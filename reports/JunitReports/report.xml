@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="198.968">
+    <testcase classname="E2E tests for EggTimer website" name="Verify if timer is working properly" time="40.075">
+        <system-out>
+            <![CDATA[Given Eggtimer website is available.........................................passed
+And Homepage is loaded properly.............................................passed
+When User enters "25" and clicks Start button...............................passed
+Then Countdown timer should start...........................................passed
+And Counter should decrement by 1 second till 25 seconds....................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="E2E tests for EggTimer website" name="Verify if timer is working properly 2" time="133.843">
+        <system-out>
+            <![CDATA[Given Eggtimer website is available.........................................passed
+And Homepage is loaded properly.............................................passed
+When User enters "2 minutes" and clicks Start button........................passed
+Then Countdown timer should start...........................................passed
+And Counter should decrement by 1 second till 120 seconds...................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="E2E tests for EggTimer website" name="Verify if timer is working properly 3" time="24.286">
+        <system-out>
+            <![CDATA[Given Eggtimer website is available.........................................passed
+And Homepage is loaded properly.............................................passed
+When User enters "15 seconds" and clicks Start button.......................passed
+Then Countdown timer should start...........................................passed
+And Counter should decrement by 1 second till 15 seconds....................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
