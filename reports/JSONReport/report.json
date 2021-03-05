@@ -1,0 +1,328 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-05T07:23:19.211Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9674531100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gluecode.EggTimerGluecode.initialize()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verify if timer is working properly",
+        "description": "",
+        "id": "e2e-tests-for-eggtimer-website;verify-if-timer-is-working-properly;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 166492800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gluecode.EggTimerGluecode.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4138864500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Eggtimer website is available",
+            "match": {
+              "location": "gluecode.EggTimerGluecode.eggtimer_website_is_avaialble()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31242300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Homepage is loaded properly",
+            "match": {
+              "location": "gluecode.EggTimerGluecode.home_page_is_loaded_properly()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 420850600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"25\" and clicks Start button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"25\"",
+                  "offset": 12
+                }
+              ],
+              "location": "gluecode.EggTimerGluecode.user_enter_time_and_click_start(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 227675000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Countdown timer should start",
+            "match": {
+              "location": "gluecode.EggTimerGluecode.countdown_timer_should_start()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25181027000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Counter should decrement by 1 second till 25 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25",
+                  "offset": 42
+                }
+              ],
+              "location": "gluecode.EggTimerGluecode.counter_should_decrement_by_1_till_time_expires(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-05T07:23:59.314Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2094070100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gluecode.EggTimerGluecode.initialize()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Verify if timer is working properly",
+        "description": "",
+        "id": "e2e-tests-for-eggtimer-website;verify-if-timer-is-working-properly;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 4143994600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gluecode.EggTimerGluecode.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6395070900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Eggtimer website is available",
+            "match": {
+              "location": "gluecode.EggTimerGluecode.eggtimer_website_is_avaialble()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11997600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Homepage is loaded properly",
+            "match": {
+              "location": "gluecode.EggTimerGluecode.home_page_is_loaded_properly()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 297440600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"2 minutes\" and clicks Start button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2 minutes\"",
+                  "offset": 12
+                }
+              ],
+              "location": "gluecode.EggTimerGluecode.user_enter_time_and_click_start(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 272894100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Countdown timer should start",
+            "match": {
+              "location": "gluecode.EggTimerGluecode.countdown_timer_should_start()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 120619604200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Counter should decrement by 1 second till 120 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "120",
+                  "offset": 42
+                }
+              ],
+              "location": "gluecode.EggTimerGluecode.counter_should_decrement_by_1_till_time_expires(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-05T07:26:13.189Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1868287200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gluecode.EggTimerGluecode.initialize()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Verify if timer is working properly",
+        "description": "",
+        "id": "e2e-tests-for-eggtimer-website;verify-if-timer-is-working-properly;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 126284900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gluecode.EggTimerGluecode.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4621107000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Eggtimer website is available",
+            "match": {
+              "location": "gluecode.EggTimerGluecode.eggtimer_website_is_avaialble()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 116005000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Homepage is loaded properly",
+            "match": {
+              "location": "gluecode.EggTimerGluecode.home_page_is_loaded_properly()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2021097900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"15 seconds\" and clicks Start button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15 seconds\"",
+                  "offset": 12
+                }
+              ],
+              "location": "gluecode.EggTimerGluecode.user_enter_time_and_click_start(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 530995600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Countdown timer should start",
+            "match": {
+              "location": "gluecode.EggTimerGluecode.countdown_timer_should_start()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14988496600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Counter should decrement by 1 second till 15 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15",
+                  "offset": 42
+                }
+              ],
+              "location": "gluecode.EggTimerGluecode.counter_should_decrement_by_1_till_time_expires(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "E2E tests for EggTimer website",
+    "description": "",
+    "id": "e2e-tests-for-eggtimer-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/TestEggTimer.feature",
+    "tags": []
+  }
+]
