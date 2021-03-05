@@ -9,8 +9,8 @@ Dependencies:
 Instructions to run:
 1. Clone the repo (https://github.com/avinashawast/EggTimerBDD.git)
 2. Navigate to $PROJECT_HOME (EggTimerBDD folder)
-3. Run below command:
-             mvn clean install
+3. Run below command: 
+          mvn clean install
              
 Alternatively, we can also run by opening the project in any IDE, and follow below instructions:
 1. Right Click on Project.
@@ -30,3 +30,7 @@ Bugs:
 1. https://e.ggtimer.com/ accepts negative numbers also
 2. Accepts string with space, like " morning" [Space is added before morning]
 3. Doesn't work for very large numbers eg: 99999999999999999
+
+
+Reports link (Will only be available for a day)
+https://reports.cucumber.io/reports/b03cb68d-e09d-4396-ae93-79ba6c06074f
